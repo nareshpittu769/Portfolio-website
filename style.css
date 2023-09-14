@@ -207,6 +207,7 @@ body::-webkit-scrollbar-thumb{
 #projects{
     width: 100%;
     background-color: #F5FEFF;
+    padding-bottom: 100px;
 }
 #projects .container h1{
     text-align: center;
@@ -322,7 +323,7 @@ body::-webkit-scrollbar-thumb{
     margin-left: 10px;
 }
 #projects .container .showmore{
-    margin: 0px auto 100px;
+    margin: 0px auto 0px;
     display: block;
     background: #02725a;
     border: none;
@@ -353,6 +354,7 @@ body::-webkit-scrollbar-thumb{
     width: 100%;
     background: #01111e;
     padding: 70px 0px;
+    
 }
 #footer .container{
     width: 100%;
@@ -405,7 +407,7 @@ body::-webkit-scrollbar-thumb{
 #about-header{
     width: 100%;
     background: #fff;
-    height: 100vh;
+    /* height: 100vh; */
 }
 #about-header .container .navbar{
     margin-bottom: 2px;
@@ -854,3 +856,50 @@ body::-webkit-scrollbar-thumb{
     letter-spacing: 1px;
     transition:transform 0.5s ;
 }
+
+
+
+/* project page styles-------- */
+
+
+.projects-container{
+    width: 100%;
+    background: #F5FEFF;
+    padding: 10px;
+}
+.projects-container .container h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+    padding-top: 100px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.projects-container .container h1::after{
+    content: '';
+    position: absolute;
+    width: 6%;
+    height: 4px;
+    background-color: #15b390;
+    left: 47%;
+    border-radius: 2px;
+    bottom: -12px;
+}
+.projects-container .container label{
+    display: block;
+    text-align: center;
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.projects-container .container select{
+    padding: 10px 25px;
+    display: block;
+    margin: 28px auto;
+    width: 200px;
+    font-size: 17px;
+    border: 2px solid #0dddba;
+    outline: none;
+    margin-bottom: 100px;
+}
+
