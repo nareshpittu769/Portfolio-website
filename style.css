@@ -42,11 +42,19 @@ body::-webkit-scrollbar-thumb{
     -moz-box-shadow: 0px 0px 10px 2px rgba(224,224,224,1);
     box-shadow: 0px 0px 10px 2px rgba(224,224,224,1);
     padding-right: 200px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
+
 .navbar .logo img{
     width: 55px;
     height: 55px;
     cursor: pointer;
+}
+.navbar .fa-bars{
+    display: none;
 }
 .navbar .list-items{
     display: flex;
@@ -100,8 +108,7 @@ body::-webkit-scrollbar-thumb{
 .profile-info .col1-info{
     flex-basis: 60%;
     display: flex;
-    align-items: flex-start;
-    padding-left: 150px;
+    padding-left: 10%;
     justify-content: center;
     flex-direction: column;
 }
@@ -167,6 +174,7 @@ body::-webkit-scrollbar-thumb{
     transform: translateY(-10px);
 }
 .profile-info .col1-info .btn{
+    width: 50%;
     margin-top: 40px;
     background: #15b390;
     border: none;
@@ -202,6 +210,12 @@ body::-webkit-scrollbar-thumb{
     width: 100%;
     height: 100%;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
 /* projects section------------ */
 
 #projects{
@@ -231,13 +245,15 @@ body::-webkit-scrollbar-thumb{
 #projects .projects-grid{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(50%,1fr));
     grid-template-rows: auto 1fr;
     gap: 40px;
     padding: 0px 200px 100px 150px;
 
 }
 #projects .projects-grid .project{
+    margin: 0px auto;
+    width: 80%;
     padding: 20px;
     -webkit-box-shadow: 0px 0px 10px 2px rgba(224,224,224,1);
     -moz-box-shadow: 0px 0px 10px 2px rgba(224,224,224,1);
@@ -260,16 +276,19 @@ body::-webkit-scrollbar-thumb{
 }
 #projects .projects-grid .project .externallink{
     display: inline-block;
-    height: 45px;
-    width: 45px;
+    height: 2.5rem;
+    width: 2.5rem;
+
+
     border-radius: 50%;
     background: #15b390;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     position:absolute;
     transform: translateY(-50%);
-    margin-left: 130px;
+    margin-left: 43%;
     margin-bottom: 20px;
     transition: background 0.5s;
 }
@@ -302,12 +321,14 @@ body::-webkit-scrollbar-thumb{
 #projects .projects-grid .project .technologies .span{
     width: fit-content;
     padding: 10px 20px;
+    margin-top: 10px;
     background-color: #e6f2f3;
     border-radius: 15px;
 }
 #projects .projects-grid .project .externalLinks{
     margin: 40px 0px 10px;
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -407,14 +428,13 @@ body::-webkit-scrollbar-thumb{
 #about-header{
     width: 100%;
     background: #fff;
-    /* height: 100vh; */
 }
 #about-header .container .navbar{
     margin-bottom: 2px;
 }
 #about-header .container .about-info{
     background: #F2FBFD;
-    height: 100vh;
+    height: auto;
 }
 #about-header .container .about-info .col1-info h1:nth-child(1){
     font-family: cursive;
@@ -856,7 +876,12 @@ body::-webkit-scrollbar-thumb{
     letter-spacing: 1px;
     transition:transform 0.5s ;
 }
-
+#contact .container .form-div .right-col #msg{
+    color: rgb(64, 202, 64);
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
 
 
 /* project page styles-------- */
