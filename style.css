@@ -27,6 +27,14 @@ body::-webkit-scrollbar-thumb{
     border-radius: 8px;
 }
 
+html{
+    position: relative;
+    width: 100%;
+}
+body{
+    position: absolute;
+}
+
 #header{
     width: 100%;
     background: #fff;
@@ -219,9 +227,7 @@ body::-webkit-scrollbar-thumb{
 /* projects section------------ */
 
 #projects{
-    width: 100%;
     background-color: #F5FEFF;
-    padding-bottom: 100px;
 }
 #projects .container h1{
     text-align: center;

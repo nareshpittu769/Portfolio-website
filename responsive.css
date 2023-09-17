@@ -1,8 +1,9 @@
 
 @media only screen and (max-width:410px){
     #header{
-        height: auto;
+        width: 100%;
     }
+
     .navbar{
         overflow: hidden;
         padding: 40px 10%;
@@ -69,6 +70,7 @@
     }
     .profile-info{
         padding-top: 10%;
+        width: 100%;
     }
     .profile-info .col1-info{
         flex-basis: 100%;
@@ -112,6 +114,7 @@
 
     .projects-container .container{
         padding-top: 10%;
+        width: 100%;        
     }
     #projects .projects-grid .pro-img img{
         width: 100%;
@@ -122,7 +125,7 @@
         grid-template-columns: repeat(auto-fit, minmax(50%,1fr));
         grid-template-rows: auto 1fr;
         gap: 40px;
-        padding: 0px 2% 0px 2%;
+        padding: 0px 2% 10% 2%;
     
     }
     #projects .projects-grid .project{
@@ -135,10 +138,12 @@
         transition: transform 0.5s;
     }
     #projects .container .showmore{
-        margin: 30px auto 0px;
+        margin: 30px auto 5%;
     }
 
-
+    #footer{
+        width: 100%;
+    }
     #footer .container .list-items{
         display: flex;
         margin: 40px 0px;
@@ -404,6 +409,7 @@
         top: 10px;
         left: 20px;
     }
+
 }
 
 @media only screen and (max-width:768px) {
@@ -520,6 +526,10 @@
     .projects-container .container{
         padding-top: 10%;
     }
+
+    #projects .container{
+        padding-bottom: 5%;
+    }
     #projects .projects-grid .pro-img img{
         width: 100%;
     }
@@ -529,7 +539,7 @@
         grid-template-columns: repeat(auto-fit, minmax(50%,1fr));
         grid-template-rows: auto 1fr;
         gap: 40px;
-        padding: 0px 2% 0px 2%;
+        padding: 0px 2% 10% 2%;
     
     }
     #projects .projects-grid .project{
@@ -542,7 +552,7 @@
         transition: transform 0.5s;
     }
     #projects .container .showmore{
-        margin: 30px auto 0px;
+        margin: 30px auto 20px;
     }
 
 
@@ -869,6 +879,10 @@
     .profile-info .col1-info .btn{
         width: 65%;
     }
+
+    #projects .container{
+        padding-bottom: 5%;
+    }
     #projects .projects-grid .pro-img img{
         width: 100%;
     }
@@ -879,7 +893,7 @@
         column-gap: 1%;
         grid-template-columns: repeat(auto-fit, minmax(40%,1fr));
         grid-template-rows: auto 1fr;
-        padding: 0px 2% 0px 2%;
+        padding: 0px 2% 10% 2%;
     
     }
     #projects .projects-grid .project{
@@ -1088,6 +1102,9 @@
         padding: 10px 8px;
     }
 
+    #projects .container{
+        padding-bottom: 5%;
+    }
 
     #projects .projects-grid{
         width: 100%;
@@ -1096,7 +1113,7 @@
         column-gap: 0%;
         grid-template-columns: repeat(auto-fit, minmax(40%,1fr));
         grid-template-rows: auto 1fr;
-        padding: 0px 2% 0px 2%;
+        padding: 0px 2% 10% 2%;
     
     }
     #projects .container .showmore{
@@ -1536,6 +1553,10 @@
     .projects-container .container{
         padding-top: 10%;
     }
+
+    #projects .container{
+        padding-bottom: 5%;
+    }
     #projects .projects-grid{
         width: 100%;
         display: grid;
@@ -1543,7 +1564,7 @@
         column-gap: 0%;
         grid-template-columns: repeat(auto-fit, minmax(40%,1fr));
         grid-template-rows: auto 1fr;
-        padding: 0px 2% 0px 2%;
+        padding: 0px 2% 10% 2%;
     
     }
     #projects .container .showmore{
@@ -1870,6 +1891,9 @@
         padding-top: 5% ;
     }
 
+    #projects .container{
+        padding-bottom: 5%;
+    }
     .projects-container .container{
         padding-top: 5%;
     }
@@ -1880,12 +1904,12 @@
         column-gap: 0%;
         grid-template-columns: repeat(auto-fit, minmax(30%,1fr));
         grid-template-rows: auto 1fr;
-        padding: 0px 2% 0px 2%;
+        padding: 0px 2% 10% 2%;
     
     }
 
     #projects .container .showmore{
-        margin: 10% auto 0px;
+        margin: 6% auto 0px;
     }
 
     .services{
