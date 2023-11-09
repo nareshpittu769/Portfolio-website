@@ -27,13 +27,13 @@ body::-webkit-scrollbar-thumb{
     border-radius: 8px;
 }
 
-html{
+/* html{
     position: relative;
     width: 100%;
-}
-body{
+} */
+/* body{
     position: absolute;
-}
+} */
 
 #header{
     width: 100%;
@@ -937,6 +937,7 @@ body{
 
 
 /* services page ----  */
+
 
 .services{
     width: 100%;
