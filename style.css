@@ -516,6 +516,7 @@ body::-webkit-scrollbar-thumb{
 .about-info{
     display: flex;
     padding-bottom: 100px;
+    padding-top: 10%;
 }
 .about-info .col1-info{
     flex-basis: 60%;

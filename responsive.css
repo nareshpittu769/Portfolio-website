@@ -1124,6 +1124,7 @@
     #about-header{
         width: 100%;
         background: #fff;
+        padding-top: 8%;
     }
     #about-header .container .navbar{
         margin-bottom: 2px;
@@ -1575,6 +1576,7 @@
     #about-header{
         width: 100%;
         background: #fff;
+        padding-top: 8%;
         /* height: 100vh; */
     }
     #about-header .container .navbar{
@@ -1864,6 +1866,12 @@
         position: relative;
     }
 
+    #about-header{
+        width: 100%;
+        background: #fff;
+        padding-top: 7%;
+        /* height: 100vh; */
+    }
 
     .sticky {
         position: fixed;
@@ -1871,8 +1879,6 @@
         width: 100%;
         z-index: 10;
     }
-
-
 
     .aside.sticky{
         display: none;
