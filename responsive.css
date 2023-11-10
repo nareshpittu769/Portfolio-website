@@ -1926,9 +1926,9 @@
         padding-top: 5%;
     }
     #contact{
-        padding-top: 10%;
+        padding-top: 5%;
         padding-bottom: 10%;
         width: 100%;
-        height: calc(100vh - 200px);
+        height: calc(100vh - 100px);
     }
 }
