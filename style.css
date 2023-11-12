@@ -255,7 +255,7 @@ body::-webkit-scrollbar-thumb{
     grid-template-rows: auto 1fr;
     gap: 40px;
     padding: 0px 200px 100px 150px;
-
+    margin-bottom: 15%;
 }
 #projects .projects-grid .project{
     margin: 0px auto;
@@ -381,7 +381,7 @@ body::-webkit-scrollbar-thumb{
     width: 100%;
     background: #01111e;
     padding: 70px 0px;
-    
+    margin-top: 7%;
 }
 #footer .container{
     width: 100%;
